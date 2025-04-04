@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go build command
+/bin/
+/dist/
+/file-reader  # Replace with your binary name if different (e.g., filereader)
+
+# Go module dependency directories (if you use vendoring)
+/vendor/
+
+# Go test and coverage files
+*.test
+*.out
+profile.cov
+coverage.out
+
+# Dependency lock files (optional, include if you want to commit them)
+/go.sum  # Uncomment if you want to track go.sum
+
+# Go workspace file
+go.work
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+logs/
+log/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# GoLand IDE-specific files
+# IntelliJ project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Editor backup files
+*.bak
+
+# Local environment files
+.env
+.env.local
